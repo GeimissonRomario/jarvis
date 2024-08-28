@@ -25,7 +25,7 @@ function wishMe() {
 }
 
 window.addEventListener('load', () => {
-    speak("Inicializando MAXWEL...");
+    speak("Inicializando MAX...");
     wishMe();
 });
 
