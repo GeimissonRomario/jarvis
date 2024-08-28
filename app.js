@@ -16,11 +16,11 @@ function wishMe() {
     var hour = day.getHours();
 
     if (hour >= 0 && hour < 12) {
-        speak("Bom dia, Gay...");
+        speak("Bom dia, Senhor...");
     } else if (hour >= 12 && hour < 17) {
-        speak("Boa tarde, Gay...");
+        speak("Boa tarde, Senhor...");
     } else {
-        speak("Boa noite, Gay...");
+        speak("Boa noite, Senhor...");
     }
 }
 
@@ -46,8 +46,8 @@ btn.addEventListener('click', () => {
 });
 
 function takeCommand(message) {
-    if (message.includes('max') || message.includes('max')) {
-        speak("Fala Gay, como posso ajudar?");
+    if (message.includes('Max') || message.includes('Max')) {
+        speak("Olá Senhor, como posso ajudar?");
     } else if (message.includes("abrir google")) {
         window.open("https://google.com", "_blank");
         speak("Abrindo o pai dos burro o Google...");
